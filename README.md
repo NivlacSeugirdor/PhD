@@ -3,6 +3,7 @@ Data and algorithms related to the doctorate.
 
 
 Organization:
+
      - Folder Prizes with Gamma, Normal and Uniform distributions:
      
           . Has 5 spreadsheets with the values referring to the prizes used in the construction of the 
