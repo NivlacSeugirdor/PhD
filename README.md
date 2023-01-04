@@ -61,7 +61,8 @@ Organization:
       2_8-3_U_e; 2_8-4_U_a; 2_8-4_U_b; 2_8-4_U_c; 2_8-4_U_d; 2_8-4_U_e; 2_8-5_U_a; 2_8-5_U_b; 2_8-5_U_c; 2_8-5_U_d; 
       2_8-5_U_e.
           . [2.1] Folder PCTBP-I: The obtained results with the PCTBP-I using:
-               *  an objective function minimizing the travel cost and penalizing not adding cities to the route;
+               *  an objective function minimizing the travel cost and penalizing not adding the available cities to the 
+     route;
                *  "i" as a reference index to a city in the instance;
                * (first quartile[i]) and (median[i]) are respectively the first quartile and the median of the ticket va-
      lues to the city "i". Applying the following penalties:
