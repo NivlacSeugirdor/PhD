@@ -75,3 +75,9 @@ Organization:
                *  being "B" the budge for the user, it has a value for each instance in each instance according to the re-
      sults provided by Nakamura (2018). The value of "B" varies between 90% and 60% in steps of 10% of the value given by 
      Nakamura (2018).
+
+     - [3] Folder Instances:
+          . All instances that were used in the tests with the heuristics of PCTBP and TDOP. The prizes in these instances were generated through a normal distribution.
+
+     - [4] Folder Heuristics:
+          .  Includes the implementation of heuristics for PCTBP (folder PCTBP) and for TDOP (folder TDOP).
