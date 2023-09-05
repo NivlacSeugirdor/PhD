@@ -317,11 +317,10 @@ class FBTBP
 
 				/***  Restrictions ***/
 
-				//// cout << "MOD 7\n";
+				
 				//1st change - its only for the purpose of reselve a already existing sequence
 				for(i = 0; i <= dSize; i++) //ok
 				{
-					// cout << toSolve[i] << " ";
 					if(toSolve[i] >= 0)
 					{
 						if( !(toSolve[i] == 0 && i > 0) )	
@@ -329,15 +328,8 @@ class FBTBP
 					}
 					else{mod.add(yi[-toSolve[i]] == 0);}
 				}
-				// cout << "\n";
 
 				// redo the 2 first restrictions
-
-				/**
-				*	2nd: Sum_{t} Sum_{j} Sum_{k} x_ijt <= 1, for all i
-				*
-				*	These restrictions require a departure on each airport only once.
-			    */ 
 
 				
 				/**
@@ -364,8 +356,6 @@ class FBTBP
 						}
 					}
 
-					//sprintf(buffer, "rest_1_i_%d", i);
-					//_xijt_i.setName(buffer);
 
 			    	mod.add(_xijt_i == yi[toSolve[i]]);	
 				}
@@ -389,8 +379,6 @@ class FBTBP
 						}
 					}
 
-					//sprintf(buffer, "rest_1_2_i_%d", i);
-					//_xijt_i.setName(buffer);
 
 			    	mod.add(_xijt_i == 0);	
 				}
@@ -859,7 +847,7 @@ class FBTBP
 				    				} 		
 								}
 
-								//Sort -> get the smallest value without the use of merge
+								
 								fromItoJ = merge_sort(fromItoJ, fromItoJ.size());
 
 								//ATRIBUTE
@@ -1036,7 +1024,7 @@ class FBTBP
 			
 		}
 
-		//Must to adapt it to save the best result. 
+		
 		static void print_best_value(char arc[60], vector<DESTINATION*>* destinations, IloCplex cplex, IloIntVar ****xijtk, vector<VARIABLE_Xijt*> varVec, IloIntVar di[]) 
 		{
 			int i;
