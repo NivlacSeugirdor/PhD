@@ -65,9 +65,7 @@ class GRASP
 			
 			i = 0;
 
-			///cout << "02\n";
-
-			FBTBP *model;
+			//FBTBP *model;
 			float up;
 			int ver, change;
 			srand( time(NULL)*991*rand() );
@@ -95,7 +93,7 @@ class GRASP
 						if(change){sol[i] = -sol[i];}
 					}
 
-					//Local Search -- If you want to test the integration with the model, simply remove the comments from lines 100 to 103.
+					//Local Search -- If you want to test the integration with the model, simply remove the comments from lines 68 and 100 to 103.
 					//model = new FBTBP();
 					//ver = model->call_model(sv, (root->mS->destinations), (root->mS->flights), &(root->mS->data), (root->mS->tripSearch), (root->mS->tl), (root->mS->dep), sol, &up, val, root->alpha);
 					//delete model;					
