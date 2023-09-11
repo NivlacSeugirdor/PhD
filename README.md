@@ -25,7 +25,7 @@ Organization:
      
           . All the obtained prizes are in the range of 10 to 100.
 
-     - [2] Folder Results:
+     - [2] Folder Model Results:
           . For the folders [2.1] and [2.2] the following instances are used:
                * 1_6-1_G_a; 1_6-1_G_b; 1_6-1_G_c; 1_6-1_G_d; 1_6-1_G_e; 1_6-2_G_a; 1_6-2_G_b; 1_6-2_G_c; 1_6-2_G_d; 
       1_6-2_G_e; 1_6-3_G_a; 1_6-3_G_b; 1_6-3_G_c; 1_6-3_G_d; 1_6-3_G_e; 1_6-4_G_a; 1_6-4_G_b; 1_6-4_G_c; 1_6-4_G_d; 
@@ -60,7 +60,7 @@ Organization:
       2_8-1_U_e; 2_8-2_U_a; 2_8-2_U_b; 2_8-2_U_c; 2_8-2_U_d; 2_8-2_U_e; 2_8-3_U_a; 2_8-3_U_b; 2_8-3_U_c; 2_8-3_U_d; 
       2_8-3_U_e; 2_8-4_U_a; 2_8-4_U_b; 2_8-4_U_c; 2_8-4_U_d; 2_8-4_U_e; 2_8-5_U_a; 2_8-5_U_b; 2_8-5_U_c; 2_8-5_U_d; 
       2_8-5_U_e.
-          . [2.1] Folder PCTBP-I: The obtained results with the PCTBP using:
+          . [2.1] Folder PCTBP: The obtained results with the PCTBP using:
                *  an objective function minimizing the travel cost and penalizing not adding the available cities to the 
      route;
                *  "i" as a reference index to a city in the instance;
@@ -69,7 +69,7 @@ Organization:
                     :- (first quartile[i])*(1+ prize[i]/prize_max); 
                     :- (median[i])*(1+ prize[i]/prize_max). 
                * Prize min as 10, 50 and 100.
-          . [2.2] Folder PCTBP-II: The obtained results with the TDOP using:
+          . [2.2] Folder TDOP: The obtained results with the TDOP using:
                *  an objective function maximizing the prizes collected for passing the available cities;
                *  a restriction to limit the cost of travel based on data already available in the literature;  
                *  being "B" the budge for the user, it has a value for each instance in each instance according to the re-
