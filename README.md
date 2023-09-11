@@ -1,5 +1,5 @@
-# PhD
-Data and algorithms related to the doctorate.
+# The priority-based traveling backpacker problem: formulations and heuristics (Expert Systems with Applications)
+Data and algorithms related to the manuscript entitled "The priority-based traveling backpacker problem: formulations and heuristics (Expert Systems with Applications)".
 
 
 Organization:
