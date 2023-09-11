@@ -7,7 +7,7 @@ Organization:
      - [1] Folder Prizes with Gamma, Normal and Uniform distributions:
      
           . Has 5 spreadsheets with the values referring to the prizes used in the construction of the instances gene-
-    rated for the PCTBP-II. They are arranged as follows:
+    rated for the TDOP model. They are arranged as follows:
      
                 * First.ods: Prizes for the instances with suffix "a";
                 
