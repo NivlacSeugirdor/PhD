@@ -77,8 +77,11 @@ Organization:
      Nakamura (2018).
 
      - [3] Folder Instances:
-          . All instances that were used in the tests with the heuristics MSR_PCTBP and MSR_TDOP. The prizes in these instances were generated through a normal distribution;
-          . If are going to use them for the PCTB model, it will be necessary to change the value present in the third line of the instances to the wanted value as a lower bound the collected prizes. Remembering that the value taken from the instance must be passed as a parameter to the model.
+          . All instances that were used in the tests with the heuristics MSR_PCTBP and MSR_TDOP. The prizes in these instan-
+     ces were generated through a normal distribution;
+          . If are going to use them for the PCTB model, it will be necessary to change the value present in the third line 
+     of the instances to the wanted value as a lower bound the collected prizes. Remembering that the value taken from the 
+     instance must be passed as a parameter to the model.
           
      - [4] Folder Heuristics:
           .  Includes the implementation of heuristics for PCTBP (folder MSR_PCTBP) and for TDOP (folder MSR_TDOP).
