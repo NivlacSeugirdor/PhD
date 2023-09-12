@@ -77,7 +77,7 @@ Organization:
      Nakamura (2018).
 
      - [3] Folder Instances:
-          . All instances that were used in the tests with the heuristics of PCTBP and TDOP. The prizes in these instances were generated through a normal distribution.
+          . All instances that were used in the tests with the heuristics MSR_PCTBP and MSR_TDOP. The prizes in these instances were generated through a normal distribution.
 
      - [4] Folder Heuristics:
-          .  Includes the implementation of heuristics for PCTBP (folder PCTBP) and for TDOP (folder TDOP).
+          .  Includes the implementation of heuristics for PCTBP (folder MSR_PCTBP) and for TDOP (folder MSR_TDOP).
