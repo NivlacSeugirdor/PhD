@@ -1,0 +1,5 @@
+./OUTPUT.out 2_8-5_a "775"
+./OUTPUT.out 2_8-4_a "797"
+./OUTPUT.out 2_8-3_a "780"
+./OUTPUT.out 2_8-2_a "884"
+./OUTPUT.out 2_8-1_a "858"
