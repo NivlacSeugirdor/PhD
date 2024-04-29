@@ -1,4 +1,11 @@
 # The priority-based traveling backpacker problem: formulations and heuristics (Expert Systems with Applications)
+
+Reference
+
+One must cite: 
+
+da Costa, C.R.; Nascimento, M.C.V. The priority-based traveling backpacker problem: formulations and heuristics. Expert Systems with Applications, v. 238, p. 121818, 2024.
+
 Data and algorithms related to the manuscript entitled "The priority-based traveling backpacker problem: formulations and heuristics (Expert Systems with Applications)".
 
 
