@@ -1,6 +1,5 @@
 # The priority-based traveling backpacker problem: formulations and heuristics (Expert Systems with Applications)
 
-Reference
 
 One must cite: 
 
